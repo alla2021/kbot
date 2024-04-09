@@ -44,7 +44,7 @@ You can use the following link to add the bot to your Telegram:
 
 After adding the bot to your Telegram, you can use the following commands:
 
-- `/hello`: The bot will send a greeting "Hello!".
+![2024-04-09 17_30_06-](https://github.com/alla2021/kbot/assets/75502074/f47597aa-35ad-43a2-8d2c-98ae3d02072a)
 
 The bot is always ready to communicate with you!
 
