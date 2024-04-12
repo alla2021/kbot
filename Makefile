@@ -24,12 +24,7 @@ windows:
 clean:
 	rm -f $(IMAGE_NAME)-*
 
-.PHONY: linux arm mac windows clean
-
 docker:
-	docker build -t $(IMAGE_NAME):$(VERSION) .
-
-clean:
-	rm -f $(IMAGE_NAME)-*
+	docker build -t quay.io/username/$(IMAGE_NAME):$(VERSION) .
 
 .PHONY: linux arm mac windows docker clean
