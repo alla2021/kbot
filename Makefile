@@ -25,3 +25,7 @@ clean:
 	rm -f $(IMAGE_NAME)-*
 
 .PHONY: linux arm mac windows clean
+
+clean:
+	rm -f $(IMAGE_NAME)-*
+	docker rmi $(IMAGE_NAME):$(VERSION)
