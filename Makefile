@@ -26,6 +26,10 @@ clean:
 
 .PHONY: linux arm mac windows clean
 
+docker:
+	docker build -t $(IMAGE_NAME):$(VERSION) .
+
 clean:
 	rm -f $(IMAGE_NAME)-*
-	docker rmi $(IMAGE_NAME):$(VERSION)
+
+.PHONY: linux arm mac windows docker clean
