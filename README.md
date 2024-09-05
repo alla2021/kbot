@@ -16,17 +16,20 @@ You can use the following link to add the bot to your Telegram:
     git clone https://github.com/your_username/Go_hi_bot.git
     ```
 
+
 2. Navigate to the project directory:
 
     ```bash
     cd Go_hi_bot
     ```
 
+
 3. Install dependencies:
 
     ```bash
     go mod tidy
     ```
+
 
 4. Set the bot token in the TELE_TOKEN environment variable:
 
